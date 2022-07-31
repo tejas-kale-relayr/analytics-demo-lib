@@ -10,7 +10,7 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: module name here
+      title: Analytics Demo
       url: core.html
     output: web
     title: analytics_demo_lib
