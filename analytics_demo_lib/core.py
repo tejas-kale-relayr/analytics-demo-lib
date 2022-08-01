@@ -3,6 +3,9 @@
 __all__ = ['say_hello']
 
 # Cell
-def say_hello(to: str) -> str:
+def say_hello(to: str, is_formal: bool = True) -> str:
     """Say hello to somebody."""
-    return f"Hello {to}"
+    if is_formal:
+        return f"Hello {to}"
+    else:
+        return f"Hi {to}!!"
